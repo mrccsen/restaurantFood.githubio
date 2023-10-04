@@ -1,0 +1,16 @@
+#h1{
+    font-family: "Greate Vibes", cursive;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: #045FB4;
+}
+#divBtn{
+    display: block;
+    justify-content: center;
+}
+.btn{
+    font-family: cursive;
+    font-size: 15px;
+}
+

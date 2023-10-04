@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!---->
+    <link rel="stylesheet" href="style.css">
+    <style>
+      @font-face {
+        font-family: "Greate Vibes";
+        src: url("GreatVibes-Regular.ttf") format("truetype");
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+        <h1 id="h1">Turkish Kitchen's Menu</h1>
+    </div>
+      <div>
+        <div class="d-flex justify-content-center" role="group" aria-label="Basic outlined example">
+
+          <input type="radio" class="btn-check" name="btnradio" id="btnradio0" autocomplete="off" checked>
+          <label class="btn btn-outline-danger me-2" for="btnradio0">Hepsi</label>
+
+          <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off">
+          <label class="btn btn-outline-danger me-2" for="btnradio1">Sulu Yemekler</label>
+
+          <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
+          <label class="btn btn-outline-danger me-2" for="btnradio2">Ana Yemekler</label>
+
+          <input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off">
+          <label class="btn btn-outline-danger me-2" for="btnradio3">Fast-Food</label>
+        </div>
+      </div>
+      <div class="container">
+        <!--Fast FOOD-->
+        <div id="fastFood" class="row  justify-content-center mt-2 ">
+          <div class="card me-2" style="width: 18rem;">
+            <img src="https://images.deliveryhero.io/image/fd-tr/LH/ewb0-hero.jpg" class="card-img-top" alt="Kokoreç">
+            <div class="card-body">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
+          <div class="card me-2" style="width: 18rem;">
+            <img src="https://images.deliveryhero.io/image/fd-tr/LH/dopu-hero.jpg" class="card-img-top" alt="Döner">
+            <div class="card-body">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="https://www.ziyafetcigkofte.com/wp-content/uploads/2021/03/cig-kofte-bayiligi-almanin-faydalari.jpg" class="card-img-top" alt="Çiğ Köfte">
+            <div class="card-body">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
+          </div>
+        <!--Sulu Yemekler-->
+        <div id="suluYemekler" class="row  justify-content-center mt-2">
+            <div class="card me-2" style="width: 18rem;">
+              <img src="https://cdn.yemek.com/mnresize/940/940/uploads/2014/06/mercimek-corbasi-yemekcom.jpg" class="card-img-top" alt="çorba">
+              <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+            <div class="card me-2" style="width: 18rem;">
+              <img src="https://cdn.yemek.com/mnresize/1250/833/uploads/2022/11/kuru-fasulye-yemekcom.jpg" class="card-img-top" alt="Fasulye">
+              <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+              <img src="https://cdn.yemek.com/mnresize/1250/833/uploads/2021/06/sulu-patates-yemegi-one-cikan.jpg" class="card-img-top" alt="Sulu Patetes">
+              <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+        <!--Ana Yemekler-->
+        <div id="anaYemek" class="row  justify-content-center mt-2 ">
+              <div class="card me-2" style="width: 18rem;">
+                <img src="https://cdn.yemek.com/mnresize/940/940/uploads/2020/05/etli-ayva-yemegi-tarifi.jpg" class="card-img-top" alt="Etli Ayva">
+                <div class="card-body">
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+              <div class="card me-2" style="width: 18rem;">
+                <img src="https://cdn.yemek.com/mnresize/1250/833/uploads/2020/09/tereyagli-pilav-one-cikan.jpg" class="card-img-top" alt="Pilav">
+                <div class="card-body">
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+              <div class="card" style="width: 18rem;">
+                <img src="https://cdn.yemek.com/mnresize/940/940/uploads/2023/03/tavuklu-bulgur-pilavi-yemekcom-1.jpg" class="card-img-top" alt="Tavuk Patates">
+                <div class="card-body">
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+          </div>
+      </div>
+    <div>
+    <!--Bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
